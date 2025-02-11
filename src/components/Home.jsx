@@ -1,0 +1,83 @@
+import React from "react";
+import mission from "../assets/mission50.png";
+import vision from "../assets/Vision50.jpg";
+import values from "../assets/values.png";
+import Mvv from "./Mvv";
+import Card from "./Card";
+import anil from "../assets/anil.jpg";
+import radheshyam from "../assets/radheshyam.png";
+import sandeep from "../assets/sandeep.jpeg";
+import rahul from "../assets/rahul.jpg";
+import priyanka from "../assets/priyanka.jpg";
+import img1 from "../assets/g1.jpg";
+import img2 from "../assets/g18.jpg";
+import img3 from "../assets/g23.jpg";
+import img4 from "../assets/g27.jpg";
+import img5 from "../assets/g35.jpg";
+import img6 from "../assets/g36.jpg";
+import Principal from "./Principal";
+
+export default function Home() {
+  return (
+    <>
+      <div className="bg-slate-100">
+        <Principal/>
+        <Mvv title="Our Mission" img={mission}>
+          <p>1. To excel student centred learning environment.</p>
+          <p>2. To develop professional skills through Industry academic interface.</p>
+          <p>3. To enhance the teaching learning process through digital technologies.</p>
+          <p>4. To inculcate ethical values, entrepreneurial skills and teamwork spirit.</p>
+        </Mvv>
+        <Mvv title="Our Vision" img={vision}>
+          <p>
+            To transform younger minds into valuable resources with technical, professional and entrepreneurial skills for sustainable growth of society and Nation as a whole.
+          </p>
+        </Mvv>
+        <Mvv title="Our Values" img={values}>
+          <p>
+            One of the most crucial elements in out lives is self-confidence. Without it, we may find it difficult to achieve anything. It's vital not to lose our self-confidence when facing challenges or tough times; everyone goes through them. Managing our time wisely is also important. Maintainig a good character is essential, regardless of our action. Moving forward with this mindset is key. We should believe that nothing is impossible; this belief empowers us to tackle challenging tasks effortlessly. Life is a precious gift, and we should cheris it. Going forward with a good character and a positive attitude is essential. Even in challenging times, staying positive is crucial. Remember a positive attitude is the most potent tool for achieving success in life.
+          </p>
+        </Mvv>
+        <div className="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500">
+          <p className="text-white mx-10 upper text-2xl font-serif font-bold">
+            Our Official Incharges
+          </p>
+        </div>
+        <div className="flex justify-center">
+          <div>
+            <div className="mt-5 flex">
+              <Card name="Mr. Radheshyam Bishnoi" branch="Civil Engg." img={radheshyam}/>
+              <Card name="Mrs. Priyanka Choudhary" branch="Computer Engg." img={priyanka}/>
+              <Card name="Mr. Rahul Singla" branch="Electrical Engg." img={rahul}/>
+            </div>
+            <div className="mt-3 flex">
+              <Card name="Mr. Anil Monga" branch="Mechanical Engg." img={anil}/>
+              <Card name="Mr. Sandeep Kumar" branch="Textile Design" img={sandeep}/>
+              <Card name="Mr. Sandeep Kumar" branch="Textile Technology" img={sandeep}/>
+            </div>
+          </div>
+        </div>
+        <div className="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500">
+          <p className="text-white mx-10 text-2xl font-serif font-bold">Gallery</p>
+        </div>
+        <div className="flex justify-center">
+          <div>
+            <div className="mt-2 flex">
+              <img className="rounded-3xl m-2 w-96" src={img1} alt="" />
+              <img className="rounded-3xl m-2 w-96" src={img2} alt="" />
+              <img className="rounded-3xl m-2 w-96" src={img3} alt="" />
+            </div>
+            <div className="mt-2 flex">
+              <img className="rounded-3xl m-2 w-96" src={img4} alt="" />
+              <img className="rounded-3xl m-2 w-96" src={img5} alt="" />
+              <img className="rounded-3xl m-2 w-96" src={img6} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="bg-gradient-to-r from-orange-500 ...">
+          <p className="text-center text-white font-semibold font-serif text-1xl">"Dedication to education is Our Strength"</p>
+        </div>
+      </div>
+    </>
+  );
+}
