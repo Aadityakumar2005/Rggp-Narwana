@@ -1,11 +1,11 @@
 import React from "react";
 import Branch from "./Branch";
-import img1 from '../assets/civil-engg20.jpg'
-import img2 from '../assets/computer-engg20.jpg'
-import img3 from '../assets/electrical-engg20.jpg'
-import img4 from '../assets/mechanical-engg20.jpg'
-import img5 from '../assets/textile-design1.jpg'
-import img6 from '../assets/textile.jpg'
+let img1 = 'https://www.gpnarwana.ac.in/images/project/civil-engg20.jpg'
+let img2 = 'https://www.gpnarwana.ac.in/images/project/computer-engg20.jpg'
+let img3 = 'https://www.gpnarwana.ac.in/images/project/electrical-engg20.jpg'
+let img4 = 'https://www.gpnarwana.ac.in/images/project/mechanical-engg20.jpg'
+let img5 = 'https://www.gpnarwana.ac.in/images/project/textile-design1.jpg'
+let img6 = 'https://www.gpnarwana.ac.in/images/project/textile.jpg'
 
 export default function Course() {
   return (

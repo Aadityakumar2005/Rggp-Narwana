@@ -1,6 +1,6 @@
 import Header from './components/Header';
-import logo from './assets/narwana logo.jpg'
-import g20 from './assets/g20.png'
+let logo = "https://www.gpnarwana.ac.in/images/narwana%20logo.jpg"
+let g20 = "https://www.gpnarwana.ac.in/images/g20.png"
 import Home from './components/Home'
 import Course from './components/Course'
 import About from './components/About'

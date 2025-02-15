@@ -1,8 +1,8 @@
-import React from 'react'
-import logo from '../assets/narwana logo.jpg'
-import img1 from '../assets/beti.jpg'
-import img2 from '../assets/water2.jpg'
-import img3 from '../assets/tree1.jpg'
+let logo = "https://www.gpnarwana.ac.in/images/narwana%20logo.jpg"
+let img1 = 'https://www.gpnarwana.ac.in/images/beti1.jpg'
+let img2 = 'https://www.gpnarwana.ac.in/images/water2.jpg'
+let img3 = 'https://www.gpnarwana.ac.in/images/tree1.jpg'
+
 
 export default function Footer() {
   return (

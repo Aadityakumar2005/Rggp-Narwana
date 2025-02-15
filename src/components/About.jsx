@@ -1,5 +1,5 @@
 import React from "react";
-import clg from "../assets/rggp.jpg";
+let clg = "https://www.gpnarwana.ac.in/images/about/aboutus.jpg";
 import Tables from "./Tables";
 
 export default function About() {
