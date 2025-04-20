@@ -31,11 +31,11 @@ export default function Footer() {
             </div>
             <div className='flex my-2'>
                 <img src={img2} alt="" />
-                <p className='pl-1 font-serif font-semibold '>Beti Bachao Beti Padhao</p>
+                <p className='pl-1 font-serif font-semibold '>Save Water Save Life</p>
             </div>
             <div className='flex my-2'>
                 <img src={img3} alt="" />
-                <p className='pl-1 font-serif font-semibold '>Beti Bachao Beti Padhao</p>
+                <p className='pl-1 font-serif font-semibold '>save Tree Save Life</p>
             </div>
         </div>
       </div>
